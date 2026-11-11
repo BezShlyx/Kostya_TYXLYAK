@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ремонт компьютеров — Костя Тухлый</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+    padding: 60px 20px;
+    text-align: center;
+  }
+  header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+  header p { font-size: 1.2rem; opacity: 0.9; }
+
+  .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+
+  .card {
+    background: #1e293b;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    border: 1px solid #334155;
+  }
+  .card h2 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+  }
+
+  .service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px dashed #334155;
+    font-size: 1.1rem;
+  }
+  .service:last-child { border-bottom: none; }
+  .price { color: #22c55e; font-weight: bold; font-size: 1.3rem; }
+
+  .phone {
+    display: inline-block;
+    background: #22c55e;
+    color: #0f172a;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: transform 0.2s;
+  }
+  .phone:hover { transform: scale(1.05); }
+
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: #64748b;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🔧 Ремонт компьютеров</h1>
+  <p>Быстро, качественно, недорого</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>👨‍🔧 Ваш мастер</h2>
+    <p><strong>Костя Тухлый</strong> — опытный специалист по ремонту и настройке компьютеров. Решу любую проблему с вашим ПК!</p>
+  </div>
+
+  <div class="card">
+    <h2>🛠️ Услуги и цены</h2>
+    <div class="service">
+      <span>Установка Windows</span>
+      <span class="price">10 000 ₽</span>
+    </div>
+  </div>
+
+  <div class="card" style="text-align:center;">
+    <h2>📞 Связаться с мастером</h2>
+    <p style="margin-bottom: 20px;">Звоните в любое время — отвечу быстро!</p>
+    <a href="tel:+79241143646" class="phone">8 (924) 114-36-46</a>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Костя Тухлый — ремонт компьютеров
+</footer>
+
+</body>
+</html>
